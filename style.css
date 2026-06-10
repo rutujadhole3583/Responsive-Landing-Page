@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s ease;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Navbar Style on Scroll */
+.scrolled {
+    background-color: #222;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Sections */
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#home {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+}
+
+#about {
+    background: #f4f4f4;
+}
+
+#services {
+    background: #ddd;
+}
+
+#portfolio {
+    background: #bbb;
+}
+
+#contact {
+    background: #999;
+}
